@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Compiled class file
 *.class
 
@@ -21,3 +22,39 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+=======
+# Project exclude paths
+/.gradle/
+/Topics/Comments/Select all correct comments/out/
+/Topics/Comments/Select all correct comments/out/production/classes/
+/Topics/Comments/Statements/out/
+/Topics/Comments/Statements/out/production/classes/
+/Topics/Comments/Theory/out/
+/Topics/Comments/Theory/out/production/classes/
+/Topics/Comments/What comments are not used in the program/out/
+/Topics/Comments/What comments are not used in the program/out/production/classes/
+/Topics/Conditional statement/Check a number is positive/out/
+/Topics/Conditional statement/Check a number is positive/out/production/classes/
+/Topics/Conditional statement/Healthy sleep/out/
+/Topics/Conditional statement/Healthy sleep/out/production/classes/
+/Topics/Functional decomposition/Calculator with four methods/out/
+/Topics/Functional decomposition/Calculator with four methods/out/production/classes/
+/Topics/Integer types and operations/Tens digit/out/
+/Topics/Integer types and operations/Tens digit/out/production/classes/
+/Topics/Iterating over arrays/The minimum value of an array/out/
+/Topics/Iterating over arrays/The minimum value of an array/out/production/classes/
+/Topics/Iterating over arrays/The sum of array elements/out/
+/Topics/Iterating over arrays/The sum of array elements/out/production/classes/
+/Topics/Printing data/Printing a magic letter/out/
+/Topics/Printing data/Printing a magic letter/out/production/classes/
+/Topics/Relational operators/Boys in a sport class/out/
+/Topics/Relational operators/Boys in a sport class/out/production/classes/
+/Topics/Relational operators/Is between/out/
+/Topics/Relational operators/Is between/out/production/classes/
+/Topics/The for-loop/The count of numbers divisible by N/out/
+/Topics/The for-loop/The count of numbers divisible by N/out/production/classes/
+/Topics/The while and do-while loops/The sum of elements/out/
+/Topics/The while and do-while loops/The sum of elements/out/production/classes/
+/Topics/What is an exception/Avoid division by zero/out/
+/Topics/What is an exception/Avoid division by zero/out/production/classes/
+>>>>>>> c6dc4fa (current project progress)
