@@ -27,6 +27,10 @@
             <option value="$PROJECT_DIR$/Topics/Conditional statement/Check a number is positive" />
             <option value="$PROJECT_DIR$/Topics/Conditional statement/Healthy sleep" />
             <option value="$PROJECT_DIR$/Topics/Conditional statement/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Constructor/Account and its owner" />
+            <option value="$PROJECT_DIR$/Topics/Constructor/Constructor definition" />
+            <option value="$PROJECT_DIR$/Topics/Constructor/Geometric cube" />
+            <option value="$PROJECT_DIR$/Topics/Constructor/Theory" />
             <option value="$PROJECT_DIR$/Topics/Declaring a method/Choose a return type" />
             <option value="$PROJECT_DIR$/Topics/Declaring a method/Division" />
             <option value="$PROJECT_DIR$/Topics/Declaring a method/Greatest common divisor" />
@@ -34,6 +38,11 @@
             <option value="$PROJECT_DIR$/Topics/Declaring a method/Syntactically correct declarations" />
             <option value="$PROJECT_DIR$/Topics/Declaring a method/The sign of a number" />
             <option value="$PROJECT_DIR$/Topics/Declaring a method/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Defining classes/Correct fields" />
+            <option value="$PROJECT_DIR$/Topics/Defining classes/Inner boxes" />
+            <option value="$PROJECT_DIR$/Topics/Defining classes/Points" />
+            <option value="$PROJECT_DIR$/Topics/Defining classes/Points on the 2D plane" />
+            <option value="$PROJECT_DIR$/Topics/Defining classes/Theory" />
             <option value="$PROJECT_DIR$/Topics/Errors in programs/Fix compile-time errors" />
             <option value="$PROJECT_DIR$/Topics/Errors in programs/Print the age" />
             <option value="$PROJECT_DIR$/Topics/Errors in programs/Select the statement" />
@@ -52,6 +61,7 @@
             <option value="$PROJECT_DIR$/Topics/Increment and decrement/What is the result" />
             <option value="$PROJECT_DIR$/Topics/Integer types and operations/Arithmetic expression" />
             <option value="$PROJECT_DIR$/Topics/Integer types and operations/Calculate the digit" />
+            <option value="$PROJECT_DIR$/Topics/Integer types and operations/Desks" />
             <option value="$PROJECT_DIR$/Topics/Integer types and operations/Good rest on vacation" />
             <option value="$PROJECT_DIR$/Topics/Integer types and operations/How many nuts each squirrel will get" />
             <option value="$PROJECT_DIR$/Topics/Integer types and operations/Next even number" />
@@ -106,6 +116,7 @@
             <option value="$PROJECT_DIR$/Topics/Switch statement/From string to a number" />
             <option value="$PROJECT_DIR$/Topics/Switch statement/Harry Potter" />
             <option value="$PROJECT_DIR$/Topics/Switch statement/Removing breaks" />
+            <option value="$PROJECT_DIR$/Topics/Switch statement/Shape" />
             <option value="$PROJECT_DIR$/Topics/Switch statement/Statements" />
             <option value="$PROJECT_DIR$/Topics/Switch statement/Test learners" />
             <option value="$PROJECT_DIR$/Topics/Switch statement/Theory" />
