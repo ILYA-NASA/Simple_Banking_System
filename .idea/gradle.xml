@@ -16,6 +16,10 @@
             <option value="$PROJECT_DIR$/Topics/Array/Ways to create an array of ints" />
             <option value="$PROJECT_DIR$/Topics/Arrays as parameters/Application as a class" />
             <option value="$PROJECT_DIR$/Topics/Arrays as parameters/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Calling a method/Abs method" />
+            <option value="$PROJECT_DIR$/Topics/Calling a method/Call me awesome" />
+            <option value="$PROJECT_DIR$/Topics/Calling a method/Method invocation" />
+            <option value="$PROJECT_DIR$/Topics/Calling a method/Theory" />
             <option value="$PROJECT_DIR$/Topics/Comments/Hello, Java platform" />
             <option value="$PROJECT_DIR$/Topics/Comments/Printing only the longest line" />
             <option value="$PROJECT_DIR$/Topics/Comments/Select all correct comments" />
@@ -31,6 +35,7 @@
             <option value="$PROJECT_DIR$/Topics/Constructor/Constructor definition" />
             <option value="$PROJECT_DIR$/Topics/Constructor/Geometric cube" />
             <option value="$PROJECT_DIR$/Topics/Constructor/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Declaring a method/Calculating factorials" />
             <option value="$PROJECT_DIR$/Topics/Declaring a method/Choose a return type" />
             <option value="$PROJECT_DIR$/Topics/Declaring a method/Division" />
             <option value="$PROJECT_DIR$/Topics/Declaring a method/Greatest common divisor" />
@@ -50,6 +55,7 @@
             <option value="$PROJECT_DIR$/Topics/Errors in programs/What's wrong" />
             <option value="$PROJECT_DIR$/Topics/Functional decomposition/Calculator with four methods" />
             <option value="$PROJECT_DIR$/Topics/Functional decomposition/Create a full name" />
+            <option value="$PROJECT_DIR$/Topics/Functional decomposition/Decompose a math function" />
             <option value="$PROJECT_DIR$/Topics/Functional decomposition/How to improve a compound program" />
             <option value="$PROJECT_DIR$/Topics/Functional decomposition/Items of functional decomposition" />
             <option value="$PROJECT_DIR$/Topics/Functional decomposition/Roots of quadratic equation" />
@@ -103,6 +109,7 @@
             <option value="$PROJECT_DIR$/Topics/Relational operators/Boys in a sport class" />
             <option value="$PROJECT_DIR$/Topics/Relational operators/Check the given numbers are different" />
             <option value="$PROJECT_DIR$/Topics/Relational operators/Existing operators" />
+            <option value="$PROJECT_DIR$/Topics/Relational operators/Groundhogs at a party" />
             <option value="$PROJECT_DIR$/Topics/Relational operators/Is between" />
             <option value="$PROJECT_DIR$/Topics/Relational operators/Possible values of a variable" />
             <option value="$PROJECT_DIR$/Topics/Relational operators/Theory" />
