@@ -4,3 +4,4 @@ content:
 - Check prefix ignoring the case
 - Operations with strings
 - Check burgs
+- Comparing strings ignoring whitespaces

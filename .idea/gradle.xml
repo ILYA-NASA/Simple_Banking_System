@@ -81,6 +81,7 @@
             <option value="$PROJECT_DIR$/Topics/Integer types and operations/Reading integer numbers" />
             <option value="$PROJECT_DIR$/Topics/Integer types and operations/Tens digit" />
             <option value="$PROJECT_DIR$/Topics/Integer types and operations/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Iterating over arrays/Alphabetical order" />
             <option value="$PROJECT_DIR$/Topics/Iterating over arrays/Count how many times a number occurs" />
             <option value="$PROJECT_DIR$/Topics/Iterating over arrays/Find the sum" />
             <option value="$PROJECT_DIR$/Topics/Iterating over arrays/Select loops" />
@@ -89,6 +90,7 @@
             <option value="$PROJECT_DIR$/Topics/Iterating over arrays/The minimum value of an array" />
             <option value="$PROJECT_DIR$/Topics/Iterating over arrays/The sum of array elements" />
             <option value="$PROJECT_DIR$/Topics/Iterating over arrays/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Iterating over arrays/Triples" />
             <option value="$PROJECT_DIR$/Topics/Overloading/Overloading methods" />
             <option value="$PROJECT_DIR$/Topics/Overloading/Theory" />
             <option value="$PROJECT_DIR$/Topics/Overview of the basic program/Cats are robots" />
@@ -124,6 +126,7 @@
             <option value="$PROJECT_DIR$/Topics/Scanning the input/Understanding System.in" />
             <option value="$PROJECT_DIR$/Topics/String/Check burgs" />
             <option value="$PROJECT_DIR$/Topics/String/Check prefix ignoring the case" />
+            <option value="$PROJECT_DIR$/Topics/String/Comparing strings ignoring whitespaces" />
             <option value="$PROJECT_DIR$/Topics/String/Operations with strings" />
             <option value="$PROJECT_DIR$/Topics/String/Statements" />
             <option value="$PROJECT_DIR$/Topics/String/Theory" />
