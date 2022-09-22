@@ -13,8 +13,5 @@ files:
     }
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/2721#comment
-status: Unchecked
-feedback:
-  message: Failed to get check result from Hyperskill
-  time: Wed, 21 Sep 2022 07:46:06 UTC
+status: Solved
 record: -1
