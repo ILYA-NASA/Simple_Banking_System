@@ -4,3 +4,6 @@ content:
 - Extended classes
 - Accessing constructors of a base class
 - Fix the non-compiled hierarchy
+- When the keyword is used
+- Why we use the super keyword
+- Employees
