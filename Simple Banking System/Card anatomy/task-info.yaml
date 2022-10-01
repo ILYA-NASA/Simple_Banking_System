@@ -241,13 +241,10 @@ files:
 - name: src/banking/Menu.java
   visible: true
   learner_created: true
-- name: src/banking/Account.java
+- name: src/banking/account/CreateAccount.java
   visible: true
   learner_created: true
-- name: src/banking/account/createAccount.java
-  visible: true
-  learner_created: true
-- name: src/banking/account/usedAccount.java
+- name: src/banking/account/UsedAccount.java
   visible: true
   learner_created: true
 feedback_link: https://hyperskill.org/projects/93/stages/515/implement#comment
