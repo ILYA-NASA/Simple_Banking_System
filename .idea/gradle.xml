@@ -225,6 +225,7 @@
             <option value="$PROJECT_DIR$/Topics/What is an exception/Avoid division by zero" />
             <option value="$PROJECT_DIR$/Topics/What is an exception/Theory" />
             <option value="$PROJECT_DIR$/Topics/java.util.Arrays/Array sorting" />
+            <option value="$PROJECT_DIR$/Topics/java.util.Arrays/Copy the array range" />
             <option value="$PROJECT_DIR$/Topics/java.util.Arrays/Theory" />
             <option value="$PROJECT_DIR$/util" />
           </set>
