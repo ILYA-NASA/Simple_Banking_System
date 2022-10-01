@@ -224,6 +224,8 @@
             <option value="$PROJECT_DIR$/Topics/The while and do-while loops/Theory" />
             <option value="$PROJECT_DIR$/Topics/What is an exception/Avoid division by zero" />
             <option value="$PROJECT_DIR$/Topics/What is an exception/Theory" />
+            <option value="$PROJECT_DIR$/Topics/java.util.Arrays/Array sorting" />
+            <option value="$PROJECT_DIR$/Topics/java.util.Arrays/Theory" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>

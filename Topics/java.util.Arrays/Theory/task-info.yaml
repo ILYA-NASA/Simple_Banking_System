@@ -1,10 +1,4 @@
-type: choice
-is_multiple_choice: false
-options:
-- text: '000111222 '
-- text: 0
-- text: 0
-- text: 12
+type: theory
 files:
 - name: src/Task.java
   visible: true
@@ -17,7 +11,7 @@ files:
       }
     }
   learner_created: false
-feedback_link: https://hyperskill.org/learn/step/1969#comment
+feedback_link: https://hyperskill.org/learn/step/19365#comment
 status: Solved
 record: -1
-local_check: false
+post_submission_on_open: true
