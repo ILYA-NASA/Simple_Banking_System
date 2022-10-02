@@ -13,7 +13,9 @@ public class Menu {
         String cardInfo = new String();
         int costChoose = sc.nextInt();
         if (costChoose == 1) {
-            cardInfo = CreateAccount.generateCardNum() + "\n" + CreateAccount.generatePinCode();
+            cardInfo = "Your card has been created\nYour card number:\n"
+                    + CreateAccount.generateCardNum()
+                    + "\nYour card PIN:\n" + CreateAccount.generatePinCode();
         } else if (costChoose == 2) {
             //TODO
         }
