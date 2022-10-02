@@ -4,10 +4,10 @@ import java.util.Random;
 
 public class CreateAccount {
     public static String generateCardNum() {
-        int bin = 40000_0;
-        int accountIdentifier = 123456789;
-        int checksum = 9;
-        return String.valueOf(bin + accountIdentifier + checksum);
+        String bin = "400000";
+        String accountIdentifier = "123456789";
+        String checksum = "9";
+        return bin + accountIdentifier + checksum;
     }
 
     public static String generatePinCode() {
