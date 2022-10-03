@@ -1,8 +1,8 @@
 package banking;
 
 import banking.account.CreateAccount;
+import banking.account.UsedAccount;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Menu {
@@ -26,10 +26,21 @@ public class Menu {
             String pinCode = sc.next();
             if (cardNum.equals(card) && pinCode.contentEquals(pin)) {
                 System.out.println("You have successfully logged in!");
-                startsMenu(card, pin);
+                System.out.println("1. Balance\n" +
+                        "2. Log out\n" +
+                        "0. Exit");
+                int choose = sc.nextInt();
+                if (choose == 1) {
+                    System.out.println("Balance: " + UsedAccount.balance());
+                } else if (choose == 2) {
+                    System.out.println("You have successfully logged out!");
+                    startsMenu(cardNum, pinCode);
+                } else {
+                    System.out.println("Bye!");
+                }
             } else {
                 System.out.println("Wrong card number or PIN!");
-                //TODO
+                startsMenu(card, pin);
             }
         }
         return new String[]{card, pin};
