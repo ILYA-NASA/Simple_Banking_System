@@ -5,8 +5,9 @@ import java.util.Random;
 public class CreateAccount {
     public static String generateCardNum() {
         String bin = "400000";
-        String accountIdentifier = "123456789";
-        String checksum = "9";
+        Random rnd = new Random();
+        String accountIdentifier = String.valueOf(rnd.nextInt(000000000, 999999999));
+        String checksum = "9"; //will be Luhn algorithm
         return bin + accountIdentifier + checksum;
     }
 
