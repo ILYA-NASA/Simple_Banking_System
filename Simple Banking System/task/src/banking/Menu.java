@@ -22,8 +22,16 @@ public class Menu {
                               + "\nYour card PIN:\n" + pinCode);
             cardInfo[0] = cardNum;
             cardInfo[1] = pinCode;
+            startsMenu();
         } else if (costChoose == 2) {
-            //TODO
+            System.out.println("Enter your card number:");
+            if (sc.next().equals(cardInfo[0]) && sc.next().equals(cardInfo[1])) {
+                System.out.println("You have successfully logged in!");
+                //TODO
+            } else {
+                System.out.println("Wrong card number or PIN!");
+                //TODO
+            }
         }
         return cardInfo;
     }
