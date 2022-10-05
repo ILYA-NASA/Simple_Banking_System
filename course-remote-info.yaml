@@ -193,12 +193,12 @@ topics:
     theory_id: 7907
   - title: Basic INSERT statement
     theory_id: 9059
+  - title: Introduction to SQLite
+    theory_id: 12165
   - title: Basic UPDATE statement
     theory_id: 9067
   - title: JDBC Statements
     theory_id: 9955
-  - title: Introduction to SQLite
-    theory_id: 12165
   3:
   - title: Results ordering
     theory_id: 8627
