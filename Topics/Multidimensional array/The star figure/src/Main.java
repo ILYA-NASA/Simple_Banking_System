@@ -1,9 +1,12 @@
+import java.util.Scanner;
+
 class Main {
     public static void main(String[] args) {
-        final int length = 15;
+        Scanner sc = new Scanner(System.in);
+        int length = sc.nextInt();
         String[][] arr = new String[length][length];
         int k = 0;
-        int d = length - 1;
+        int d = arr.length - 1;
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr.length; j++) {
                 arr[i][j] = ".";
