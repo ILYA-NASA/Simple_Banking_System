@@ -163,9 +163,13 @@
             <option value="$PROJECT_DIR$/Topics/Overview of the basic program/Statements" />
             <option value="$PROJECT_DIR$/Topics/Overview of the basic program/The Hello World program" />
             <option value="$PROJECT_DIR$/Topics/Overview of the basic program/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Primitive and reference types/Code with nulls" />
+            <option value="$PROJECT_DIR$/Topics/Primitive and reference types/Creating a primitive" />
             <option value="$PROJECT_DIR$/Topics/Primitive and reference types/Creating a reference type" />
+            <option value="$PROJECT_DIR$/Topics/Primitive and reference types/Null syntax" />
             <option value="$PROJECT_DIR$/Topics/Primitive and reference types/The assignment" />
             <option value="$PROJECT_DIR$/Topics/Primitive and reference types/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Primitive and reference types/What does a reference type store" />
             <option value="$PROJECT_DIR$/Topics/Printing data/Digits from 0 to 9 backwards" />
             <option value="$PROJECT_DIR$/Topics/Printing data/First, second, third" />
             <option value="$PROJECT_DIR$/Topics/Printing data/From 0 to 4" />
