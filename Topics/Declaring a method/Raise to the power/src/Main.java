@@ -3,11 +3,12 @@ import java.util.Scanner;
 public class Main {
 
     public static long power(int n, int m) {
-        long res = 1;
+        /*long res = 1;
         for (int i = 0; i < m; i++) {
             res *= n;
         }
-        return res;
+        return res;*/
+        return (long) Math.pow(n, m);
     }
 
     /* Do not change code below */
