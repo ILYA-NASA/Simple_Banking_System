@@ -388,29 +388,8 @@ files:
     }
   learner_created: true
 feedback_link: https://hyperskill.org/learn/step/8426#comment
-status: Failed
+status: Solved
 feedback:
-  message: |2
-
-    FAILURE: Build failed with an exception.
-
-    * What went wrong:
-    Could not resolve all files for configuration &#39;classpath&#39;.
-    &gt; Could not resolve com.github.hyperskill.hs-gradle-plugin:build:release-SNAPSHOT.
-      Required by:
-          unspecified:unspecified:unspecified &gt; com.github.hyperskill:hs-gradle-plugin:release-SNAPSHOT:v1.1-g905ba16-19
-       &gt; Could not resolve com.github.hyperskill.hs-gradle-plugin:build:release-SNAPSHOT.
-          &gt; Unable to load Maven meta-data from https://jitpack.io/com/github/hyperskill/hs-gradle-plugin/build/release-SNAPSHOT/maven-metadata.xml.
-             &gt; Could not HEAD &#39;https://jitpack.io/com/github/hyperskill/hs-gradle-plugin/build/release-SNAPSHOT/maven-metadata.xml&#39;.
-                &gt; Read timed out
-
-    * Try:
-    &gt; Run with --stacktrace option to get the stack trace.
-    &gt; Run with --info or --debug option to get more log output.
-    &gt; Run with --scan to get full insights.
-
-    * Get more help at https://help.gradle.org
-
-    BUILD FAILED in 2m 52s
-  time: Wed, 12 Oct 2022 08:33:56 UTC
+  message: Congratulations!
+  time: Thu, 13 Oct 2022 12:20:01 UTC
 record: 2

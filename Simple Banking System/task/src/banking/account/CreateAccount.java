@@ -22,9 +22,19 @@ public class CreateAccount {
      */
     public static String checkSum(String bin, String accountIden) {
         String numCard = bin + accountIden;
+        int[] numCardArray = new int[numCard.length()];
         int sum = 0;
         for (int i = 0; i < numCard.length(); i++) {
-            sum += Integer.parseInt(numCard.substring(i, i + 1));
+            numCardArray[i] = Integer.parseInt(numCard.substring(i, i + 1));
+        }
+        for (int i = 0; i < numCardArray.length; i++) {
+            if (i % 2 == 0) {
+                numCardArray[i] *= 2;
+                if (numCardArray[i] > 9) {
+                    numCardArray[i] -= 9;
+                }
+            }
+            sum += numCardArray[i];
         }
         int count = 0;
         while (sum % 10 != 0) {
