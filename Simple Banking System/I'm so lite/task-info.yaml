@@ -488,6 +488,130 @@ files:
         }
     }
   learner_created: false
+- name: src/banking/account/CreateAccount.java
+  visible: true
+  text: |-
+    package banking.account;
+
+    import java.util.Random;
+
+    public class CreateAccount {
+        public static String generateCardNum() {
+            String bin = "400000";
+            Random rnd = new Random();
+            String accountIdentifier = String.valueOf(rnd.nextInt(100000000, 999999999));
+            String checksum = checkSum(bin, accountIdentifier);
+            return bin + accountIdentifier + checksum;
+        }
+
+        public static String generatePinCode() {
+            Random rnd = new Random();
+            int pin = rnd.nextInt(1000, 9999);
+            return String.valueOf(pin);
+        }
+
+        /**
+         * method generate last number in card for checks in Luhn algorithm
+         */
+        public static String checkSum(String bin, String accountIden) {
+            String numCard = bin + accountIden;
+            int[] numCardArray = new int[numCard.length()];
+            int sum = 0;
+            for (int i = 0; i < numCard.length(); i++) {
+                numCardArray[i] = Integer.parseInt(numCard.substring(i, i + 1));
+            }
+            for (int i = 0; i < numCardArray.length; i++) {
+                if (i % 2 == 0) {
+                    numCardArray[i] *= 2;
+                    if (numCardArray[i] > 9) {
+                        numCardArray[i] -= 9;
+                    }
+                }
+                sum += numCardArray[i];
+            }
+            int count = 0;
+            while (sum % 10 != 0) {
+                sum++;
+                count++;
+            }
+            return String.valueOf(count);
+        }
+    }
+  learner_created: true
+- name: src/banking/Menu.java
+  visible: true
+  text: |
+    package banking;
+
+    import banking.account.CreateAccount;
+    import banking.account.UsedAccount;
+
+    import java.util.Scanner;
+
+    public class Menu {
+        public static String[] startsMenu(String card, String pin) {
+            Scanner sc = new Scanner(System.in);
+            System.out.println("\n1. Create an account\n" +
+                    "2. Log into account\n" +
+                    "0. Exit");
+            int costChoose = sc.nextInt();
+            if (costChoose == 1) {
+                String cardNum = CreateAccount.generateCardNum();
+                String pinCode = CreateAccount.generatePinCode();
+                System.out.println("\nYour card has been created\nYour card number:\n"
+                        + cardNum
+                        + "\nYour card PIN:\n" + pinCode);
+                startsMenu(cardNum, pinCode);
+            } else if (costChoose == 2) {
+                System.out.println("\nEnter your card number:");
+                String cardNum = sc.next();
+                System.out.println("Enter your PIN:");
+                String pinCode = sc.next();
+                if (cardNum.equals(card) && pinCode.contentEquals(pin)) {
+                    System.out.println("\nYou have successfully logged in!");
+                    UsedAccount.accountMenu(cardNum, pinCode);
+                } else {
+                    System.out.println("\nWrong card number or PIN!");
+                    startsMenu(card, pin);
+                }
+            }
+            return new String[]{card, pin};
+        }
+    }
+  learner_created: true
+- name: src/banking/account/UsedAccount.java
+  visible: true
+  text: |
+    package banking.account;
+
+    import banking.Menu;
+
+    import java.util.Scanner;
+
+    public class UsedAccount {
+        public static void accountMenu(String cardNum, String pinCode) {
+            Scanner sc = new Scanner(System.in);
+            System.out.println("\n1. Balance\n" +
+                    "2. Log out\n" +
+                    "0. Exit");
+            int choose = sc.nextInt();
+            if (choose == 1) {
+                balance();
+                accountMenu(cardNum, pinCode);
+            } else if (choose == 2) {
+                System.out.println("\nYou have successfully logged out!");
+                Menu.startsMenu(cardNum, pinCode);
+            } else {
+                System.out.println("\nBye!");
+            }
+        }
+
+        public static void balance() {
+            System.out.println("\nBalance: " + 0);
+        }
+
+    }
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/8427#comment
 status: Unchecked
 record: -1
