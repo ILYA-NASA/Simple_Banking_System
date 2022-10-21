@@ -1,0 +1,22 @@
+type: code
+custom_name: Are siblings?
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.io.File;
+
+    class Siblings {
+
+        public static boolean areSiblings(File f1, File f2) {
+            // implement me
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8095#comment
+status: Unchecked
+feedback:
+  message: "Failed to connect to server, check the Internet connection \n\nFailed\
+    \ to connect to hyperskill.org/13.95.11.223:443"
+  time: Fri, 21 Oct 2022 08:59:37 UTC
+record: -1
