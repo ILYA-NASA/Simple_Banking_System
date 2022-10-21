@@ -1,11 +1,11 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: "null"
-- text: int
 - text: nothing
-- text: none
+- text: int
 - text: void
+- text: none
+- text: "null"
 files:
 - name: src/Task.java
   visible: true

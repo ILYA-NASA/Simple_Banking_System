@@ -3,8 +3,8 @@ is_multiple_choice: false
 options:
 - text: 0 2 4 6 8
 - text: 0 2 4 6 8 10
-- text: 2 4 6 8
 - text: 2 4 6 8 10
+- text: 2 4 6 8
 files:
 - name: src/Task.java
   visible: true

@@ -2,10 +2,10 @@ type: choice
 is_multiple_choice: false
 options:
 - text: 30
-- text: 10
-- text: 0
-- text: Undefined
 - text: 20
+- text: 10
+- text: Undefined
+- text: 0
 files:
 - name: src/Task.java
   visible: true

@@ -1,10 +1,10 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: hammers and hand drills
-- text: methods
 - text: non-primitive variables
 - text: integers
+- text: methods
+- text: hammers and hand drills
 files:
 - name: src/Task.java
   visible: true
