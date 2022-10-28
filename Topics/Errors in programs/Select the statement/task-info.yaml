@@ -4,8 +4,8 @@ options:
 - text: Compile-time errors may occur when a program is already started.
 - text: Debugging can help to find compile-time errors.
 - text: The forgotten semicolon in source code is a run-time error.
-- text: If your program compiles successfully, there are no guarantees that it does
-    not have run-time errors.
+- text: "If your program compiles successfully, there are no guarantees that it does\
+    \ not have run-time errors."
 files:
 - name: src/Task.java
   visible: true

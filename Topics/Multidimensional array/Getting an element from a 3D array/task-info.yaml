@@ -1,10 +1,10 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: arr[i, j, k]
-- text: arr(i, j, k)
-- text: arr.get(i, j, k)
-- text: arr[i][j][k]
+- text: "arr[i, j, k]"
+- text: "arr(i, j, k)"
+- text: "arr.get(i, j, k)"
+- text: "arr[i][j][k]"
 files:
 - name: src/Task.java
   visible: true

@@ -1,8 +1,8 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: public void method(long[] longNumbers)
-- text: public void method(long... longNumbers[])
+- text: "public void method(long[] longNumbers)"
+- text: "public void method(long... longNumbers[])"
 - text: public void method(long... longNumbers)
 - text: public void method(long longNumbers...)
 - text: public void method(long longNumbers)

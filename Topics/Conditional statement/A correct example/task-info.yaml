@@ -2,10 +2,10 @@ type: choice
 is_multiple_choice: false
 options:
 - text: ' if (i &lt; j) then  System.out.print("Hello!"); '
-- text: if (i &lt; j) { System.out.print("Hello!"); }
-- text: ' if {i &lt; j} then System.out.print("Hello!");'
-- text: 'if [i &lt; j] System.out.print("Hello!"); '
-- text: 'if i &lt; j { System.out.print("Hello!"); } '
+- text: "if (i &lt; j) { System.out.print(\"Hello!\"); }"
+- text: " if {i &lt; j} then System.out.print(\"Hello!\");"
+- text: "if [i &lt; j] System.out.print(\"Hello!\"); "
+- text: "if i &lt; j { System.out.print(\"Hello!\"); } "
 files:
 - name: src/Task.java
   visible: true

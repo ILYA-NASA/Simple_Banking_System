@@ -4,7 +4,7 @@ options:
 - text: random.nextInt(upper - lower) + lower
 - text: random.nextInt(upper - lower) + lower + 1
 - text: random.nextInt(lower) + upper
-- text: random.nextInt(lower, upper + 1)
+- text: "random.nextInt(lower, upper + 1)"
 - text: random.nextInt(upper - lower + 1) + lower
 files:
 - name: src/Task.java

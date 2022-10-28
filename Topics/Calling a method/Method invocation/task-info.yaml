@@ -1,10 +1,10 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: printSum(123L, 88L);
-- text: printSum(123L, 13);
-- text: printSum(123, 88L);
-- text: printSum(123, 13);
+- text: "printSum(123L, 88L);"
+- text: "printSum(123L, 13);"
+- text: "printSum(123, 88L);"
+- text: "printSum(123, 13);"
 files:
 - name: src/Task.java
   visible: true
