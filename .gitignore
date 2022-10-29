@@ -58,3 +58,11 @@ hs_err_pid*
 /Topics/What is an exception/Avoid division by zero/out/
 /Topics/What is an exception/Avoid division by zero/out/production/classes/
 >>>>>>> c6dc4fa (current project progress)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen

@@ -5,6 +5,12 @@
     <content url="file://$MODULE_DIR$/../..">
       <excludeFolder url="file://$MODULE_DIR$/../../.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../build" />
+      <excludeFolder url="file://$MODULE_DIR$/Topics/Hierarchy of exceptions/Base classes of RuntimeException" />
+      <excludeFolder url="file://$MODULE_DIR$/Topics/Hierarchy of exceptions/Checked exceptions" />
+      <excludeFolder url="file://$MODULE_DIR$/Topics/Hierarchy of exceptions/Overview the hierarchy" />
+      <excludeFolder url="file://$MODULE_DIR$/Topics/Hierarchy of exceptions/Overview the hierarchy (1)" />
+      <excludeFolder url="file://$MODULE_DIR$/Topics/Hierarchy of exceptions/The base class" />
+      <excludeFolder url="file://$MODULE_DIR$/Topics/Hierarchy of exceptions/UncheckedException" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
