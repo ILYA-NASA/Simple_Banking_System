@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<metadata modelVersion="1.0.0">
+    <groupId>com.github.hyperskill.hs-gradle-plugin</groupId>
+    <artifactId>build</artifactId>
+    <version>release-v1.1-g905ba16-19-v1.1-g905ba16-19</version>
+    <versioning>
+        <snapshot>
+            <timestamp>v1.1-g905ba16-19-v1.1-g905ba16</timestamp>
+            <buildNumber>19</buildNumber>
+        </snapshot>
+    </versioning>
+</metadata>

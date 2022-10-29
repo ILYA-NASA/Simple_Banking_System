@@ -1,0 +1,103 @@
+{
+  "formatVersion" : "1.1",
+  "createdBy" : {
+    "gradle" : {
+      "version" : "7.3"
+    }
+  },
+  "component" : {
+    "group" : "com.github.hyperskill",
+    "module" : "hs-test",
+    "version" : "release-SNAPSHOT",
+    "attributes" : {
+      "org.gradle.status" : "release"
+    }
+  },
+  "variants" : [ {
+    "name" : "apiElements",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.jvm.version" : "11",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-api"
+    },
+    "dependencies" : [ {
+      "group" : "junit",
+      "module" : "junit",
+      "version" : {
+        "requires" : "4.13.2"
+      }
+    }, {
+      "group" : "org.assertj",
+      "module" : "assertj-swing-junit",
+      "version" : {
+        "requires" : "3.17.1"
+      }
+    }, {
+      "group" : "org.apache.httpcomponents",
+      "module" : "httpclient",
+      "version" : {
+        "requires" : "4.5.13"
+      }
+    }, {
+      "group" : "com.google.code.gson",
+      "module" : "gson",
+      "version" : {
+        "requires" : "2.8.9"
+      }
+    } ],
+    "files" : [ {
+      "name" : "hs-test-release-SNAPSHOT.jar",
+      "url" : "hs-test-release-SNAPSHOT.jar",
+      "size" : 262087,
+      "sha512" : "f7a7c555fdbddf9e271964b261fb8f7aa7f97ee8cb7500c0872220e142f7d414755f20c5cfc0a363f02ab2844b47bd00d1d62464ea16896ed1f271c0ebf3c089",
+      "sha256" : "1810d6afb16981ccb0e79c9a3248d44f155b6585acceb41ac90ee3ec94778ecd",
+      "sha1" : "66ed17b75aadcf557d6d877ee198d617a8d025bf",
+      "md5" : "e6ae741e4eeaf4cde973c2fb33e94828"
+    } ]
+  }, {
+    "name" : "runtimeElements",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.jvm.version" : "11",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-runtime"
+    },
+    "dependencies" : [ {
+      "group" : "junit",
+      "module" : "junit",
+      "version" : {
+        "requires" : "4.13.2"
+      }
+    }, {
+      "group" : "org.assertj",
+      "module" : "assertj-swing-junit",
+      "version" : {
+        "requires" : "3.17.1"
+      }
+    }, {
+      "group" : "org.apache.httpcomponents",
+      "module" : "httpclient",
+      "version" : {
+        "requires" : "4.5.13"
+      }
+    }, {
+      "group" : "com.google.code.gson",
+      "module" : "gson",
+      "version" : {
+        "requires" : "2.8.9"
+      }
+    } ],
+    "files" : [ {
+      "name" : "hs-test-release-SNAPSHOT.jar",
+      "url" : "hs-test-release-SNAPSHOT.jar",
+      "size" : 262087,
+      "sha512" : "f7a7c555fdbddf9e271964b261fb8f7aa7f97ee8cb7500c0872220e142f7d414755f20c5cfc0a363f02ab2844b47bd00d1d62464ea16896ed1f271c0ebf3c089",
+      "sha256" : "1810d6afb16981ccb0e79c9a3248d44f155b6585acceb41ac90ee3ec94778ecd",
+      "sha1" : "66ed17b75aadcf557d6d877ee198d617a8d025bf",
+      "md5" : "e6ae741e4eeaf4cde973c2fb33e94828"
+    } ]
+  } ]
+}
