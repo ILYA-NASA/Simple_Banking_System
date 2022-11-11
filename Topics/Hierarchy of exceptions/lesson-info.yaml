@@ -7,3 +7,4 @@ content:
 - Overview the hierarchy (1)
 - Base classes of RuntimeException
 - UncheckedException
+- BadRequestException
