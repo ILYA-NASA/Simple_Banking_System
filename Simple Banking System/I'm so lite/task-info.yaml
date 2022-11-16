@@ -615,6 +615,9 @@ files:
 - name: src/banking/DataBase/SQLiteDB.java
   visible: true
   learner_created: true
+- name: src/banking/SQLiteDB/card.s3db.db
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/8427#comment
 status: Failed
 feedback:
