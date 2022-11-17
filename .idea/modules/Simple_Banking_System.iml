@@ -11,6 +11,14 @@
       <excludeFolder url="file://$MODULE_DIR$/Topics/Hierarchy of exceptions/Overview the hierarchy (1)" />
       <excludeFolder url="file://$MODULE_DIR$/Topics/Hierarchy of exceptions/The base class" />
       <excludeFolder url="file://$MODULE_DIR$/Topics/Hierarchy of exceptions/UncheckedException" />
+      <excludeFolder url="file://$MODULE_DIR$/Topics/Calling a method/Area of parallelogram" />
+      <excludeFolder url="file://$MODULE_DIR$/Topics/Declaring a method/Find the max of three numbers" />
+      <excludeFolder url="file://$MODULE_DIR$/Topics/Declaring a method/Sum of numbers in the range" />
+      <excludeFolder url="file://$MODULE_DIR$/Topics/Hierarchy of exceptions/BadRequestException" />
+      <excludeFolder url="file://$MODULE_DIR$/Topics/Instance methods/Car" />
+      <excludeFolder url="file://$MODULE_DIR$/Topics/Instance methods/Complex numbers" />
+      <excludeFolder url="file://$MODULE_DIR$/Topics/Iterating over arrays/Cyclically shifting elements" />
+      <excludeFolder url="file://$MODULE_DIR$/Topics/Types and variables" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
